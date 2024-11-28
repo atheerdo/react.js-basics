@@ -1,0 +1,47 @@
+
+.navbar-list{
+        background-color:#666;
+        display:flex;
+        justify-content:space-between;
+        list-style:none;
+        padding:10px;
+        border-radius: 8px;
+       
+
+        li{
+            font-size:20;
+           
+
+            a{
+                border-bottom: 2px solid white;
+                text-decoration: none;
+                color: white;
+              
+            }
+            
+            &:hover{
+                a{
+                    color: red;
+                }
+            }
+
+        }
+       
+}
+
+button{
+    background-color: #333;
+    padding: 6px 15px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.5s;
+    background-color: black;
+    
+}
+
+    button:hover{
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+
+
